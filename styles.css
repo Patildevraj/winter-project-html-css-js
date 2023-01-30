@@ -1,0 +1,788 @@
+/* universal */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* utility */
+
+.primarybtn-big {
+    width: 107px;
+    height: 35px;
+    position: relative;
+    right: 44px;
+    color: #fff;
+    background-color: #2f91e5;
+    border-radius: 31px;
+    border: none;
+}
+
+
+
+/* top-header */
+#top-header {
+    background-color: black;
+}
+
+#top-header .container {
+    display: flex;
+}
+
+.header-logo img {
+    padding-top: 10px;
+}
+
+.num span p {
+    color: #fff;
+    padding-top: 5px;
+}
+
+.top-one {
+    margin-left: 13px;
+}
+
+.top-one img {
+    width: 33%;
+    padding-top: 11px;
+}
+
+.top-right {
+    padding-top: 8px;
+}
+
+.top-right ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    margin-right: 23px;
+}
+
+.top-right ul {
+    display: flex;
+}
+
+.row-top-one {
+    display: flex;
+    padding-left: 22px;
+}
+
+.top-two select {
+    margin-left: -24%;
+    margin-top: 9px;
+    color: #fff;
+    border: none;
+    background: black;
+}
+
+/* header */
+#header .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.primarybtn {
+    width: 74px;
+    height: 36px;
+    color: #fff;
+    background-color: #2f91e5;
+    border-radius: 31px;
+    border: none;
+}
+
+.header-menu ul li {
+    list-style-type: none;
+    margin-right: 12px;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.topnav input {
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.header-menu {
+    display: flex;
+    margin-top: 31px;
+}
+
+#header ul {
+    display: flex;
+}
+
+.header-cart {
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* banner img */
+#banner-img {
+    background: url('./img/hero/h1_hero.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-1 img {
+    height: 100vh;
+}
+
+#banner-img .row {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.banner-2 {
+    position: relative;
+    top: 23%;
+    line-height: 72px;
+}
+
+.banner-2 h3 {
+    color: #2f91e5;
+}
+
+.banner-2 h1 {
+    font-family: auto;
+    font-size: 84px;
+}
+
+/* category */
+#category {
+    padding: 5px;
+}
+
+#category h2 {
+    text-align: center;
+    padding: 40px;
+    font-family: auto;
+    font-size: 31px;
+}
+
+.category-second {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 21px;
+}
+
+.img-cat1 img,
+.img-cat2 img,
+.img-cat3 img,
+.first,
+.second,
+.third {
+    width: 30vw;
+}
+
+#category .row-2 {
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+}
+
+#category .row {
+    display: flex;
+}
+
+.content-right {
+    position: relative;
+    left: -42%;
+    top: 71px;
+}
+
+.content-right h5 {
+    font-size: 16px;
+    color: #2f91e5;
+    position: relative;
+    bottom: 13px;
+    left: -5px;
+}
+
+.btn-cat {
+    background-color: #f1f139;
+    width: 140px;
+    padding: 7px;
+    border: none;
+    border-radius: 19px;
+}
+
+#latest .row-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+    gap: 15px 13px;
+    justify-content: center;
+    text-align: center;
+}
+
+#latest .row-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+#latest .row-1 ul {
+    display: flex;
+}
+
+#latest .row-1 ul li {
+    list-style-type: none;
+}
+
+#latest .row-1 ul li:first-child a {
+    color: red;
+}
+
+#latest .row-1 ul li a {
+    text-decoration: none;
+    color: gray;
+    padding-right: 22px;
+}
+
+hr {
+    width: 100%;
+    margin: auto;
+}
+
+#latest .container {
+    padding: 134px 77px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: red;
+    padding-left: 12px;
+}
+
+.rating-color-1,
+.rating-color-2,
+.rating-color-3 {
+    color: #f1f139;
+}
+
+.new {
+    position: relative;
+    top: -75%;
+    border: none;
+    color: #fff;
+    background-color: red;
+    padding: 3px 8px;
+    border-radius: 22px;
+    right: 178%;
+}
+
+
+/* best product */
+#best-product .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 88vh;
+}
+.darkbtn-big a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#best-product .container {
+    margin: 71px 53px;
+    background-color: antiquewhite;
+}
+
+.find-best {
+    position: relative;
+    top: 23%;
+    line-height: 40px;
+    left: 23%;
+}
+
+.card-man img {
+    position: relative;
+    left: 52%;
+    bottom: 19%;
+}
+
+.card-shape img {
+    position: relative;
+    top: 43%;
+    left: 19%;
+}
+
+.darkbtn-big {
+    width: 107px;
+    height: 38px;
+    color: #fff;
+    background-color: black;
+    border-radius: 31px;
+    border: none;
+}
+
+/* best collection */
+#best-collection .container {
+    padding: 98px;
+}
+
+#best-collection .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.collection-three {
+    position: relative;
+    top: 38%;
+}
+
+.collect-img-one {
+    position: relative;
+    top: 54%;
+    left: 16%;
+}
+
+.collect-content {
+    position: relative;
+    top: 22%;
+    left: 16%;
+    line-height: 39px;
+}
+
+.row-collect-one,
+.row-collect-two,
+.row-collect-three {
+    display: flex;
+    align-items: center;
+}
+
+/* offer news */
+#offer-news .container {
+    background: url('./img/hero/h1_hero.jpg');
+    height: 40vh;
+}
+
+#offer-news .row {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 43%;
+}
+
+.offer-two input {
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+}
+
+.offer-two {
+    display: flex;
+}
+
+.primarybtn-big a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* services */
+#services .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 29px;
+    line-height: 38px;
+    padding: 168px;
+}
+
+/* foot-images */
+#foot-images .row {
+    display: flex;
+}
+
+#foot-images img {
+    width: 19vw;
+    height: 42vh;
+}
+
+#foot-images .container {
+    padding: 50px 28px;
+}
+
+/* footer */
+.foot-one,
+.foot-two,
+.foot-three,
+.foot-four {
+    width: 20vw;
+    line-height: 42px;
+}
+
+#footer .row-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+#footer .row-2 {
+    display: flex;
+    padding: 33px 0;
+    justify-content: space-evenly;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+/* For Mobile devices: 320px-480px */
+@media (min-width: 320px) and (max-width: 480px) {
+    #top-header {
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #latest .container {
+        padding: 99px 77px;
+    }
+
+    #banner-img {
+        width: 245vw;
+    }
+
+    .banner-2 h1 {
+        font-size: 62px;
+    }
+
+    #category h2 {
+        width: 243vw;
+    }
+
+    #latest .row-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-top: 50px;
+        gap: 15px 13px;
+        margin-left: 99vw;
+    }
+
+    hr {
+        width: 376%;
+    }
+
+    .latest-menu {
+        margin-left: 252px;
+    }
+
+    .card-man img {
+        position: relative;
+        left: 16%;
+        height: 109vh;
+        bottom: 19%;
+    }
+
+    #best-product .container {
+        margin: 65px 27px;
+        background-color: antiquewhite;
+        width: 227vw;
+    }
+
+    .find-best {
+        position: relative;
+        top: 16%;
+        line-height: 36px;
+        left: 25%;
+    }
+
+    .collection-one {
+        display: none;
+
+    }
+
+    .collection-three {
+        position: relative;
+        top: 41%;
+        color: #fff;
+        left: -20vw;
+    }
+
+    #best-collection {
+        background-color: black;
+        width: 225vw;
+        margin-left: 32px;
+    }
+
+    .collect-img-two img {
+        position: relative;
+        left: -175px;
+    }
+
+    #best-collection .container {
+        padding: 77px;
+    }
+
+    #offer-news .container {
+        width: 225vw;
+        margin-left: 10vw;
+        margin-top: 20px;
+    }
+
+    .offer-two {
+        padding-top: 15px;
+    }
+
+    #offer-news .row {
+        display: block;
+        position: relative;
+        top: 48px;
+        margin-left: 160px;
+    }
+
+    .row-collect-one {
+        width: 78vw;
+    }
+
+    #best-collection .row {
+        margin-left: 84vw;
+    }
+
+    .card-shape img {
+        position: relative;
+        top: 43%;
+        left: -36%;
+    }
+
+    .header-cart {
+        margin-top: 31px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 13px;
+    }
+
+    #header .row {
+        background-color: #ecd7d7;
+        width: 245%;
+        display: block;
+    }
+
+    #header .header-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-menu {
+        justify-content: center;
+    }
+
+    #services .row {
+        padding: 63px;
+        display: block;
+    }
+
+    .services-one,
+    .services-two,
+    .services-three {
+        width: 118vw;
+        margin-left: 140px;
+    }
+
+    #foot-images img {
+        width: 45vw;
+        height: 30vh;
+    }
+
+    #footer .row-1 {
+        display: block;
+        text-align: center;
+    }
+
+    .foot-one,
+    .foot-two,
+    .foot-three,
+    .foot-four {
+        width: 140vw;
+        margin-left: 52%;
+        border-top: 1px solid black;
+        line-height: 42px;
+        padding-top: 21px;
+    }
+
+    #footer .row-2 {
+        display: block;
+        padding: 21px 0;
+        width: 142vw;
+        margin-left: 52vw;
+        border-top: 2px solid black;
+    }
+    .social-media{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+
+}
+
+
+
+/* For Tablets or iPad: 481px - 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    #top-header {
+        display: block;
+        width: 141%;
+    }
+
+    #top-header .container {
+        display: flex;
+        width: 104vw;
+    }
+
+    .top-right ul {
+        display: flex;
+        margin-left: 52%;
+    }
+
+    .header-menu ul li {
+        margin-right: 17px;
+    }
+}
+
+
+
+/* For Laptop or small-size screen: 769px -1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #top-header {
+        display: block;
+        width: 137%;
+    }
+
+    #header .row {
+        padding: 12px;
+    }
+
+    .fav,
+    .cart {
+        margin-right: 23px;
+    }
+
+    .header-menu {
+        display: flex;
+        margin-top: 31px;
+        margin-left: 10%;
+    }
+
+    .header-cart {
+        margin-left: 18vw;
+    }
+
+    .top-right ul {
+        margin-left: 90%;
+    }
+
+    .top-two select {
+        margin-left: -144%;
+        margin-top: 17px;
+    }
+
+    .num span p {
+        padding-top: 16px;
+    }
+
+    .top-one img {
+        width: 28%;
+        padding-top: 10px;
+    }
+
+    .top-right {
+        padding-top: 11px;
+    }
+}
+
+
+
+/* For Desktop or large-size screen: 1025px -1200px */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #top-header {
+        display: block;
+        width: 139%;
+    }
+
+    #top-header .container {
+        display: flex;
+        width: 80vw;
+    }
+
+    .header-cart {
+        column-gap: 38px;
+        margin-left: 19vw;
+        margin-top: 31px;
+        display: flex;
+    }
+
+    .top-right ul {
+        display: flex;
+        margin-left: 18vw;
+    }
+
+}
+
+
+
+/* For Extra-large size device: 1200px and more */
+@media (min-width: 1201px) {
+    #top-header {
+        display: block;
+        width: 100%;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #header .row {
+        justify-content: space-around;
+    }
+
+    #top-header .container {
+        display: flex;
+    }
+
+    .top-right ul {
+        display: flex;
+        margin-left: 32vw;
+    }
+
+    .top-right {
+        padding: 5px;
+    }
+
+    .fav,
+    .cart {
+        padding: 2px 9px;
+    }
+
+    .header-cart {
+        padding-right: 15px;
+    }
+
+    .top-one img {
+        width: 20%;
+        padding-top: 10px;
+    }
+
+    .top-two select {
+        margin-left: -225%;
+        margin-top: 9px;
+    }
+
+    .num span p {
+        margin-left: -73%;
+    }
+}
